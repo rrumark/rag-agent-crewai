@@ -1,0 +1,16 @@
+[project]
+name = "rag-agent-with-crewai"
+version = "0.1.0"
+description = "Building a RAG agent with CrewAI framework"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crewai==0.28.8",
+    "crewai-tools==0.1.6",
+    "langchain-community==0.0.29",
+    "langchain-groq>=0.1.5",
+    "langchain-huggingface>=0.0.3",
+    "python-dotenv>=1.0.0",
+    "sentence-transformers>=5.1.0",
+    "setuptools>=80.9.0",
+]
